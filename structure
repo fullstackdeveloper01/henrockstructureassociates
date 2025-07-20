@@ -1,0 +1,57 @@
+Henrock
+|-- public
+    |-  Assest
+    |-  favicon.png
+    |-  index.html
+    |-  manifest.json
+    |-  robots.txt
+|-- src
+    |-- app
+        |-- about/page.jsx
+        |-- career/page.jsx
+        |-- contact/page.jsx
+        |-- cookie-policy/page.jsx
+        |-- privacy-policy/page.jsx
+        |-- projetcs/page.jsx
+        |-- services/page.jsx  
+        |-- terms/page.jsx
+        |-- globals.css
+        |-- layout.jsx
+        |-- page.jsx
+    |-- assest
+    |-- components
+        |-- pages/HenrockLeads.jsx
+        |-- pages/IndustriesSlider.jsx
+        |-- About.jsx
+        |-- Blog.jsx
+        |-- Features.jsx
+        |-- Footer.jsx
+        |-- HeroSection.jsx  
+        |-- Navbar.jsx
+        |-- ProjectCard.jsx
+        |-- ScrollToTop.jsx
+        |-- StatsSection.jsx
+        |-- TestimonialSection.jsx
+        |-- WhyDifferent.jsx
+        |-- WhyHenrock.jsx
+    |-- constants
+    |-- data
+        |-- projectData.jsx
+        |-- ServicesData.jsx
+    |-- lib
+    |-- styles
+|--- .gitignore
+|--- jsconfig.json
+|--- next-env.d.ts
+|--- next.config.js
+|--- package-lock.json
+|--- package.json
+|--- postcss.config.js
+|--- tailwind.config.js
+|--- tsconfig.json
+
+
+
+
+
+

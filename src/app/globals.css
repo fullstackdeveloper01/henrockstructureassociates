@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply text-black;
+}
+
+body{
+    overflow-x:hidden;
+  }
+  
+  .clip-left,
+  .clip-right {
+    clip-path: none;
+  }
+  
+  /* Apply angled clip-paths only on md and larger */
+  @media (min-width: 768px) {
+    .clip-left {
+      clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    }
+  
+    .clip-right {
+      clip-path: polygon(5% 0, 100% 0, 100% 100%, 0 100%);
+    }
+  }
+  
+  @media (max-width: 768px){
+    .md\:h-32{
+      height:4rem!important;
+    }
+    .md\:h-28{
+      height:3.5rem!important;
+    }
+    .font-12{
+      font-size:12px!important;
+    }
+    .h-14{
+      height:3.5rem!important;
+    }
+  }
+  
+  @media (min-width: 768px) {
+      .md\:h-26 {
+          height: 5.5rem;
+      }
+  }
